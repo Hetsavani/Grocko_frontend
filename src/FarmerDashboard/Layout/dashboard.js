@@ -1,13 +1,21 @@
 import { Outlet } from "react-router-dom";
 import Footer from "../../footer";
 import Navbar from "./navbar";
+import SeedList from "../../Seeds/seeds";
 
 function Dashboard() {
   return (
     <>
-      <Navbar/>
-      <Outlet></Outlet>
-      <Footer/>
+      <div style={{marginBottom:"100px"}}>
+        <Navbar />
+      </div>
+      <div>
+        <SeedList />
+      </div>
+      {/* <Outlet></Outlet> */}
+      <div>
+        <Footer />
+      </div>
     </>
   );
 }

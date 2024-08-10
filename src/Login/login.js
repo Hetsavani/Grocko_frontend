@@ -10,7 +10,7 @@ function Login() {
   const [email, setEmail] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   const navigate = useNavigate();
-
+  // sessionStorage.setItem("isLoggedIn", false);
   // Login method
   async function login() {
     try {
@@ -24,6 +24,12 @@ function Login() {
 
       const data = await response.json();
       if (response.ok) {
+        sessionStorage.setItem("isLoggedIn",true);
+        sessionStorage.setItem("UserName",name);
+        console.log("xyz")
+        setInterval(() => {
+          
+        }, 5000);
         // Navigate to dashboard on successful login
         navigate("/dashboard");
       } else {
@@ -53,6 +59,9 @@ function Login() {
       const data = await response.json();
       if (response.ok) {
         // Navigate to dashboard on successful signup
+        sessionStorage.setItem("UserName",name);
+        sessionStorage.setItem("isLoggedIn",true);
+        console.log("xyz")
         navigate("/dashboard");
       } else {
         alert(data.message); // Display error message from backend

@@ -3,6 +3,7 @@ import Dashboard from "../FarmerDashboard/Layout/dashboard";
 import Login from "../Login/login";
 import MainContent from "../dashboard/maincontent";
 import SeedList from "../Seeds/seeds";
+import TransportRequest from "../Transport/TransportRequest";
 
 const router = createBrowserRouter([
     {
@@ -19,7 +20,12 @@ const router = createBrowserRouter([
     {
         path:"seeds",
         element:<SeedList/>
-    }]
+    },
+    {
+        path:"transport",
+        element:<TransportRequest/>
+    }
+    ]
     },
 
 ])

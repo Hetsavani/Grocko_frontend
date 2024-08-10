@@ -78,25 +78,25 @@ function mainContent() {
             </section>
 
             {/* Invest Section */}
-            <section className="py-5" id="invest">
+            <section className="py-5" id="subsidies">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-xl-9 mb-3">
                             <div className="row">
                                 <div className="col-lg-9 mb-3">
-                                    <h5 className="fw-bold fs-3 fs-lg-5 lh-sm mb-3">Invest at Your Pace</h5>
-                                    <p className="mb-5">With GrocKo, you can choose from a range of investment options that align with your goals, from short-term yields to long-term growth.</p>
+                                    <h5 className="fw-bold fs-3 fs-lg-5 lh-sm mb-3">Government Subsidy Plans</h5>
+                                    <p className="mb-5">With GrocKo, easily access and apply for various government subsidy plans tailored to support your farming needs, from initial setup to ongoing operations.</p>
                                 </div>
                                 <div className="col-md-6 mb-5">
                                     <div className="card text-white">
                                         <img className="card-img" src="assets/img/gallery/short-terms.png" alt="..." />
                                         <div className="card-img-overlay d-flex flex-column justify-content-center px-5 px-md-3 px-lg-5 bg-dark-gradient">
-                                            <h6 className="text-success pt-2">HARVEST SOON</h6>
+                                            <h6 className="text-success pt-2">IMMEDIATE SUPPORT</h6>
                                             <hr className="text-white" style={{ height: "0.12rem", width: "2.813rem" }} />
                                             <div className="pt-lg-3">
-                                                <h6 className="fw-bold text-white fs-1 fs-md-2 fs-lg-3 w-xxl-50">Short-Term Investments</h6>
-                                                <p className="w-xxl-75">Invest in farms that will be ready for harvest in 3-18 months, providing quick returns on your investment.</p>
-                                                <button className="btn btn-lg btn-light text-success" type="button">Browse Farms</button>
+                                                <h6 className="fw-bold text-white fs-1 fs-md-2 fs-lg-3 w-xxl-50">Short-Term Subsidies</h6>
+                                                <p className="w-xxl-75">Apply for subsidies that provide immediate financial assistance for urgent needs, helping you cover costs quickly and efficiently.</p>
+                                                <button className="btn btn-lg btn-light text-success" type="button">Explore Subsidies</button>
                                             </div>
                                         </div>
                                     </div>
@@ -105,11 +105,11 @@ function mainContent() {
                                     <div className="card text-white">
                                         <img className="card-img" src="assets/img/gallery/fully-funded.png" alt="..." />
                                         <div className="card-img-overlay d-flex flex-column justify-content-center px-5 px-md-3 px-lg-5 bg-light-gradient">
-                                            <h6 className="text-success pt-2">FUTURE GROWTH</h6>
+                                            <h6 className="text-success pt-2">LONG-TERM ASSISTANCE</h6>
                                             <hr className="text-white" style={{ height: "0.12rem", width: "2.813rem" }} />
                                             <div className="pt-lg-3">
-                                                <h6 className="fw-bold text-white fs-1 fs-md-2 fs-lg-3 w-xxl-50">Long-Term Investments</h6>
-                                                <p className="w-xxl-75">Consider farms that offer long-term investment opportunities for sustained growth and impact.</p>
+                                                <h6 className="fw-bold text-white fs-1 fs-md-2 fs-lg-3 w-xxl-50">Long-Term Subsidies</h6>
+                                                <p className="w-xxl-75">Explore long-term subsidy plans designed to support your farm’s growth and development over extended periods, ensuring sustained success and productivity.</p>
                                                 <button className="btn btn-lg btn-light text-success" type="button">Learn More</button>
                                             </div>
                                         </div>
@@ -121,57 +121,124 @@ function mainContent() {
                 </div>
             </section>
 
+
             {/* How It Works Section */}
             <section className="py-0">
-                <div className="bg-holder" style={{ backgroundImage: "url(assets/img/illustrations/how-it-works.png)", backgroundPosition: "center bottom", backgroundSize: "cover" }}></div>
+                <div
+                    className="bg-holder"
+                    style={{
+                        backgroundImage: "url(assets/img/illustrations/how-it-works.png)",
+                        backgroundPosition: "center bottom",
+                        backgroundSize: "cover",
+                    }}
+                ></div>
                 <div className="container-lg">
                     <div className="row justify-content-center">
                         <div className="col-sm-8 col-md-9 col-xl-5 text-center pt-8">
-                            <h5 className="fw-bold fs-3 fs-xxl-5 lh-sm mb-3 text-white">How GrocKo Works</h5>
-                            <p className="mb-5 text-white">Choose from a variety of agricultural projects to invest in, and be part of a community that values sustainability, innovation, and growth.</p>
+                            <h5 className="fw-bold fs-3 fs-xxl-5 lh-sm mb-3 text-white">How it works</h5>
+                            <p className="mb-5 text-white">
+                                With GrocKo, you can manage every aspect of farming seamlessly. From purchasing seeds from trusted vendors and acquiring essential equipment to coordinating crop transportation and securing the best prices for your produce, GrocKo covers all your farming needs.
+                            </p>
                         </div>
                         <div className="col-sm-9 col-md-12 col-xxl-9">
                             <div className="theme-tab">
                                 <ul className="nav justify-content-between">
-                                    <li className="nav-item" role="presentation"><a className="nav-link active fw-semi-bold" href="#tab1" data-bs-toggle="tab" data-bs-target="#tab1" id="tab-1"><span className="nav-item-circle-parent"><span className="nav-item-circle">1</span></span><span className="d-none d-md-block mt-3">Choose Project</span></a></li>
-                                    <li className="nav-item" role="presentation"><a className="nav-link fw-semi-bold" href="#tab2" data-bs-toggle="tab" data-bs-target="#tab2" id="tab-2"><span className="nav-item-circle-parent"><span className="nav-item-circle">2</span></span><span className="d-none d-md-block mt-3">Invest</span></a></li>
-                                    <li className="nav-item" role="presentation"><a className="nav-link fw-semi-bold" href="#tab3" data-bs-toggle="tab" data-bs-target="#tab3" id="tab-3"><span className="nav-item-circle-parent"><span className="nav-item-circle">3</span></span><span className="d-none d-md-block mt-3">Monitor</span></a></li>
-                                    <li className="nav-item" role="presentation"><a className="nav-link fw-semi-bold" href="#tab4" data-bs-toggle="tab" data-bs-target="#tab4" id="tab-4"><span className="nav-item-circle-parent"><span className="nav-item-circle">4</span></span><span className="d-none d-md-block mt-3">Harvest</span></a></li>
+                                    <li className="nav-item" role="presentation">
+                                        <a
+                                            className="nav-link active fw-semi-bold"
+                                            href="#bootstrap-tab1"
+                                            data-bs-toggle="tab"
+                                            data-bs-target="#tab1"
+                                            id="tab-1"
+                                        >
+                                            <span className="nav-item-circle-parent">
+                                                <span className="nav-item-circle">01</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li className="nav-item" role="presentation">
+                                        <a
+                                            className="nav-link fw-semi-bold"
+                                            href="#bootstrap-tab2"
+                                            data-bs-toggle="tab"
+                                            data-bs-target="#tab2"
+                                            id="tab-2"
+                                        >
+                                            <span className="nav-item-circle-parent">
+                                                <span className="nav-item-circle">02</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li className="nav-item" role="presentation">
+                                        <a
+                                            className="nav-link fw-semi-bold"
+                                            href="#bootstrap-tab3"
+                                            data-bs-toggle="tab"
+                                            data-bs-target="#tab3"
+                                            id="tab-3"
+                                        >
+                                            <span className="nav-item-circle-parent">
+                                                <span className="nav-item-circle">03</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li className="nav-item" role="presentation">
+                                        <a
+                                            className="nav-link fw-semi-bold"
+                                            href="#bootstrap-tab4"
+                                            data-bs-toggle="tab"
+                                            data-bs-target="#tab4"
+                                            id="tab-4"
+                                        >
+                                            <span className="nav-item-circle-parent">
+                                                <span className="nav-item-circle">04</span>
+                                            </span>
+                                        </a>
+                                    </li>
                                 </ul>
-                                <div className="tab-content mt-5">
-                                    <div className="tab-pane active" role="tabpanel" id="tab1">
-                                        <div className="row">
-                                            <div className="col-lg-6 text-center text-lg-start"><img className="img-fluid mb-4 mb-lg-0" src="assets/img/gallery/choose-project.png" alt="" /></div>
-                                            <div className="col-lg-6">
-                                                <h5 className="fw-bold fs-1 heading-color">Step 1: Choose a Project</h5>
-                                                <p className="my-3 pe-xl-5">Browse a diverse range of agricultural projects listed on GrocKo, and select the ones that align with your investment goals. Each project is thoroughly vetted for quality and potential.</p>
+                                <div className="tab-content" id="myTabContent">
+                                    <div className="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab-1">
+                                        <div className="row align-items-center my-6 mx-auto">
+                                            <div className="col-md-6 col-lg-5 offset-md-1">
+                                                <h3 className="fw-bold lh-base text-white">Select the ideal seeds from trusted vendors tailored to your farming needs.</h3>
+                                            </div>
+                                            <div className="col-md-5 text-white offset-lg-1">
+                                                <p className="mb-0">
+                                                    Explore a variety of seeds from reliable vendors to find the best match for your farm. GrocKo allows you to choose based on quality and price, ensuring you get the most suitable seeds for optimal growth and productivity.
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="tab-pane" role="tabpanel" id="tab2">
-                                        <div className="row">
-                                            <div className="col-lg-6 text-center text-lg-start"><img className="img-fluid mb-4 mb-lg-0" src="assets/img/gallery/invest.png" alt="" /></div>
-                                            <div className="col-lg-6">
-                                                <h5 className="fw-bold fs-1 heading-color">Step 2: Make Your Investment</h5>
-                                                <p className="my-3 pe-xl-5">Once you've chosen a project, decide how much you want to invest. You can fund a portion of a project or fully back a farmer’s initiative, and track your contributions through our platform.</p>
+                                    <div className="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab-2">
+                                        <div className="row align-items-center my-6 mx-auto">
+                                            <div className="col-md-6 col-lg-5 offset-md-1">
+                                                <h3 className="fw-bold lh-base text-white">Easily coordinate the transportation of your crops once they’re ready.</h3>
+                                            </div>
+                                            <div className="col-md-5 text-white offset-lg-1">
+                                                <p className="mb-0">
+                                                    Once your crops are ready for harvest, GrocKo facilitates seamless transportation arrangements. Request transportation services to efficiently move your produce, ensuring it reaches the market or processing center in perfect condition.                                                </p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="tab-pane" role="tabpanel" id="tab3">
-                                        <div className="row">
-                                            <div className="col-lg-6 text-center text-lg-start"><img className="img-fluid mb-4 mb-lg-0" src="assets/img/gallery/monitor.png" alt="" /></div>
-                                            <div className="col-lg-6">
-                                                <h5 className="fw-bold fs-1 heading-color">Step 3: Monitor Progress</h5>
-                                                <p className="my-3 pe-xl-5">Stay updated with real-time insights and reports on the progress of your investments. GrocKo ensures transparency by providing regular updates from farmers and agronomists.</p>
+                                    <div className="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab-3">
+                                        <div className="row align-items-center my-6 mx-auto">
+                                            <div className="col-md-6 col-lg-5 offset-md-1">
+                                                <h3 className="fw-bold lh-base text-white">Find the best prices for your crops to maximize your profits.</h3>
+                                            </div>
+                                            <div className="col-md-5 text-white offset-lg-1">
+                                                <p className="mb-0">
+                                                    GrocKo helps you connect with buyers to secure the best possible price for your crops. Analyze market trends and negotiate deals that maximize your revenue, ensuring you get the best value for your harvest.                                                </p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="tab-pane" role="tabpanel" id="tab4">
-                                        <div className="row">
-                                            <div className="col-lg-6 text-center text-lg-start"><img className="img-fluid mb-4 mb-lg-0" src="assets/img/gallery/harvest.png" alt="" /></div>
-                                            <div className="col-lg-6">
-                                                <h5 className="fw-bold fs-1 heading-color">Step 4: Harvest & Reap Rewards</h5>
-                                                <p className="my-3 pe-xl-5">When the project reaches its harvest stage, your investment begins to yield returns. Depending on the project, you may receive produce, profit, or both. It's your reward for supporting sustainable agriculture.</p>
+                                    <div className="tab-pane fade" id="tab4" role="tabpanel" aria-labelledby="tab-4">
+                                        <div className="row align-items-center my-6 mx-auto">
+                                            <div className="col-md-6 col-lg-5 offset-md-1">
+                                                <h3 className="fw-bold lh-base text-white">Discover and apply for government subsidies to support your farming activities.</h3>
+                                            </div>
+                                            <div className="col-md-5 text-white offset-lg-1">
+                                                <p className="mb-0">
+                                                    GrocKo provides easy access to various government subsidy plans designed to support and enhance your farming operations. Stay informed about available subsidies, apply for financial assistance, and take advantage of support programs to boost your farm’s productivity and sustainability.                                               </p>
                                             </div>
                                         </div>
                                     </div>
@@ -182,68 +249,132 @@ function mainContent() {
                 </div>
             </section>
 
+
             {/* Testimonials Section */}
-            <section className="py-8" id="testimonials">
-                <div className="container-lg">
-                    <div className="row flex-center">
-                        <div className="col-xl-7 col-lg-9 text-center">
-                            <h5 className="fw-bold fs-3 fs-lg-5 lh-sm mb-3">What Our Investors Say</h5>
+            <section class="py-8" id="testimonial">
+                <div class="container-lg">
+                    <div class="row flex-center">
+                        <div class="col-12 col-lg-10 col-xl-12">
+                            <div
+                                class="bg-holder"
+                                style={{ backgroundImage: 'url(assets/img/illustrations/testimonial-bg.png)', backgroundPosition: 'top left', backgroundSize: '120px 83px' }}
+                            ></div>
+                            <h6 class="fs-3 fs-lg-4 fw-bold lh-sm">What our users <br />are saying about GrocKo</h6>
                         </div>
-                    </div>
-                    <div className="row flex-center">
-                        <div className="col-xxl-9">
-                            <div className="carousel slide pt-6" id="carouselExampleDark" data-bs-ride="carousel">
-                                <div className="carousel-inner">
-                                    <div className="carousel-item active">
-                                        <div className="row">
-                                            <div className="col-lg-7 col-xl-8">
-                                                <div className="row flex-center">
-                                                    <div className="col-4 col-sm-auto"><img className="img-fluid rounded-circle" src="assets/img/gallery/testimonial1.png" width="100" alt="" /></div>
-                                                    <div className="col">
-                                                        <h6 className="text-primary mb-0 mt-3 mt-sm-0">Rajesh Patel</h6>
-                                                        <p className="fs-0 fw-normal text-600 mb-0">Investor & Agripreneur</p>
-                                                        <p className="mt-2">"GrocKo has revolutionized the way I approach agriculture investments. The platform's transparency and the ease of connecting with projects across the country have made me a loyal investor."</p>
+                        <div class="carousel slide pt-3" id="carouselExampleDark" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="10000">
+                                    <div class="row h-100 mx-3 mx-sm-5 mx-md-4 my-md-7 m-lg-7 mt-7">
+                                        <div class="col-md-4 mb-5 mb-md-0">
+                                            <div class="card h-100 shadow">
+                                                <div class="card-body my-3">
+                                                    <div class="align-items-xl-center d-block d-xl-flex px-3">
+                                                        <img class="img-fluid me-3 me-md-2 me-lg-3" src="assets/img/gallery/user-1.png" width="50" alt="" />
+                                                        <div class="flex-1 align-items-center pt-2">
+                                                            <h5 class="mb-0 fw-bold text-success">Rajesh Patel</h5>
+                                                            <p class="fw-normal text-black">Farmer</p>
+                                                        </div>
                                                     </div>
+                                                    <p class="mb-0 px-3 px-md-2 px-xxl-3">&quot;GrocKo has been a game-changer for my farming business. The tools for seed selection and crop management have greatly enhanced my efficiency and yield."</p>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div className="carousel-item">
-                                        <div className="row">
-                                            <div className="col-lg-7 col-xl-8">
-                                                <div className="row flex-center">
-                                                    <div className="col-4 col-sm-auto"><img className="img-fluid rounded-circle" src="assets/img/gallery/testimonial2.png" width="100" alt="" /></div>
-                                                    <div className="col">
-                                                        <h6 className="text-primary mb-0 mt-3 mt-sm-0">Sita Desai</h6>
-                                                        <p className="fs-0 fw-normal text-600 mb-0">Environmental Advocate</p>
-                                                        <p className="mt-2">"Investing in GrocKo's projects has allowed me to support sustainable farming practices while earning a return. It's a win-win situation for both my portfolio and the planet."</p>
+                                        <div class="col-md-4 mb-5 mb-md-0">
+                                            <div class="card h-100 shadow">
+                                                <div class="card-body my-3">
+                                                    <div class="align-items-xl-center d-block d-xl-flex px-3">
+                                                        <img class="img-fluid me-3 me-md-2 me-lg-3" src="assets/img/gallery/user-2.png" width="50" alt="" />
+                                                        <div class="flex-1 align-items-center pt-2">
+                                                            <h5 class="mb-0 fw-bold text-success">Sita Desai</h5>
+                                                            <p class="fw-normal text-black">Agriculture Enthusiast</p>
+                                                        </div>
                                                     </div>
+                                                    <p class="mb-0 px-3 px-md-2 px-xxl-3">&quot;The features GrocKo offers for monitoring crop health and market prices have been invaluable. It has simplified many aspects of farming and made it easier to make informed decisions."</p>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div className="carousel-item">
-                                        <div className="row">
-                                            <div className="col-lg-7 col-xl-8">
-                                                <div className="row flex-center">
-                                                    <div className="col-4 col-sm-auto"><img className="img-fluid rounded-circle" src="assets/img/gallery/testimonial3.png" width="100" alt="" /></div>
-                                                    <div className="col">
-                                                        <h6 className="text-primary mb-0 mt-3 mt-sm-0">Vikram Chauhan</h6>
-                                                        <p className="fs-0 fw-normal text-600 mb-0">Tech Entrepreneur</p>
-                                                        <p className="mt-2">"GrocKo has made agricultural investment accessible and profitable. The projects are well-vetted, and the returns have exceeded my expectations. I highly recommend it to anyone interested in this sector."</p>
+                                        <div class="col-md-4 mb-5 mb-md-0">
+                                            <div class="card h-100 shadow">
+                                                <div class="card-body my-3">
+                                                    <div class="align-items-xl-center d-block d-xl-flex px-3">
+                                                        <img class="img-fluid me-3 me-md-2 me-lg-3" src="assets/img/gallery/user-3.png" width="50" alt="" />
+                                                        <div class="flex-1 align-items-center pt-2">
+                                                            <h5 class="mb-0 fw-bold text-success">Vikram Chauhan</h5>
+                                                            <p class="fw-normal text-black">Sustainable Farming Advocate</p>
+                                                        </div>
                                                     </div>
+                                                    <p class="mb-0 px-3 px-md-2 px-xxl-3">&quot;The integration of real-time data and advanced analytics in GrocKo has significantly improved my farm's sustainability and profitability. It's an essential tool for any modern farmer."</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <a className="carousel-control-prev" href="#carouselExampleDark" role="button" data-bs-slide="prev"><span className="carousel-control-prev-icon" aria-hidden="true"></span><span className="visually-hidden">Previous</span></a>
-                                <a className="carousel-control-next" href="#carouselExampleDark" role="button" data-bs-slide="next"><span className="carousel-control-next-icon" aria-hidden="true"></span><span className="visually-hidden">Next</span></a>
+                                <div class="carousel-item" data-bs-interval="2000">
+                                    <div class="row h-100 mx-3 mx-sm-5 mx-md-4 my-md-7 m-lg-7 mt-7">
+                                        <div class="col-md-4 mb-5 mb-md-0">
+                                            <div class="card h-100 shadow">
+                                                <div class="card-body my-3">
+                                                    <div class="align-items-xl-center d-block d-xl-flex px-3">
+                                                        <img class="img-fluid me-3 me-md-2 me-lg-3" src="assets/img/gallery/user-1.png" width="50" alt="" />
+                                                        <div class="flex-1 align-items-center pt-2">
+                                                            <h5 class="mb-0 fw-bold text-success">Rajesh Patel</h5>
+                                                            <p class="fw-normal text-black">Farmer</p>
+                                                        </div>
+                                                    </div>
+                                                    <p class="mb-0 px-3 px-md-2 px-xxl-3">&quot;GrocKo has been a great tool for managing my farm. The insights and tools available have helped me increase my productivity and connect with better vendors. Highly recommended!"</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-5 mb-md-0">
+                                            <div class="card h-100 shadow">
+                                                <div class="card-body my-3">
+                                                    <div class="align-items-xl-center d-block d-xl-flex px-3">
+                                                        <img class="img-fluid me-3 me-md-2 me-lg-3" src="assets/img/gallery/user-2.png" width="50" alt="" />
+                                                        <div class="flex-1 align-items-center pt-2">
+                                                            <h5 class="mb-0 fw-bold text-success">Sita Desai</h5>
+                                                            <p class="fw-normal text-black">Agriculture Enthusiast</p>
+                                                        </div>
+                                                    </div>
+                                                    <p class="mb-0 px-3 px-md-2 px-xxl-3">&quot;With GrocKo, I’ve been able to better track market trends and get timely advice on crop management. It’s a fantastic platform for anyone serious about modern farming practices."</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-5 mb-md-0">
+                                            <div class="card h-100 shadow">
+                                                <div class="card-body my-3">
+                                                    <div class="align-items-xl-center d-block d-xl-flex px-3">
+                                                        <img class="img-fluid me-3 me-md-2 me-lg-3" src="assets/img/gallery/user-3.png" width="50" alt="" />
+                                                        <div class="flex-1 align-items-center pt-2">
+                                                            <h5 class="mb-0 fw-bold text-success">Vikram Chauhan</h5>
+                                                            <p class="fw-normal text-black">Sustainable Farming Advocate</p>
+                                                        </div>
+                                                    </div>
+                                                    <p class="mb-0 px-3 px-md-2 px-xxl-3">&quot;GrocKo's approach to integrating technology with farming has been a breakthrough. The platform’s user-friendly design and detailed analytics have helped me optimize my operations effectively."</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row px-3 px-sm-6 px-md-0 px-lg-5 px-xl-4">
+                                <div class="col-12 position-relative">
+                                    <a class="carousel-control-prev carousel-icon z-index-2" href="#carouselExampleDark" role="button" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next carousel-icon z-index-2" href="#carouselExampleDark" role="button" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+
+
+
         </>
     );
 }

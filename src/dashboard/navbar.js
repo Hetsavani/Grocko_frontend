@@ -40,6 +40,11 @@ function Navbar(){
                   </a>
                 </li>
                 <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    Goveerment subsidies
+                  </a>
+                </li>
+                <li class="nav-item">
                   <a class="nav-link">AI assistant</a>
                 </li>
               </ul>

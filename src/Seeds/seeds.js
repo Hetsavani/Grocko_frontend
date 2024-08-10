@@ -20,7 +20,7 @@ function SeedList(){
             seed_type : "seedType",
             quality_grade:"A",
             price_per_unit : "1000"
-        },
+        },  
         {
             seedId:{type:Number,index:true,unique:true},
             seed_name : "seedName",

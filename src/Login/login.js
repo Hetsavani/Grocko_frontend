@@ -6,8 +6,11 @@ function Login(){
   const [isPwSame, setIsPwSame] = useState(true);
   const [password, setPassword] = useState("");
   const [Name,setName] = useState("");
+  const url = "http://localhost:3000"
   function signIn(){
+    fetch("").then(()=>{
 
+    }).then(()=>{})
   }
     return <>
 {/* <div class={styles.formBox+" mx-auto"}>

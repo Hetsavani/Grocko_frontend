@@ -6,7 +6,8 @@ function Dashboard() {
   return (
     <>
       <Navbar/>
-      <Outlet></Outlet>
+      {/* <Outlet></Outlet> */}
+      <h1>dwerthyi</h1>
       <Footer/>
     </>
   );

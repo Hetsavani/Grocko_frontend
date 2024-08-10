@@ -17,9 +17,6 @@ const router = createBrowserRouter([
             element: <MainContent />
         },
     {
-        path: "dashboard",
-        element:<MainContent />,
-    },{
         path:"seeds",
         element:<SeedList/>
     }]

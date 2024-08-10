@@ -181,7 +181,14 @@ function Login() {
                   className={styles.input}
                   style={{ marginBottom: "0px" }}
                   placeholder="Confirm Password"
-                  onChange={(e) => setConfirmPassword(e.target.value)}
+                  onChange={(e) => {
+                    setConfirmPassword(e.target.value);
+                    if(e.target.value != password){
+                      setIsPwSame(false);
+                    }else{
+                      setIsPwSame(true);
+                    }
+                  }}
                 />
                 {!isPwSame && (
                   <span className="text-danger">

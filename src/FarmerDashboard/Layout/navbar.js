@@ -54,14 +54,14 @@ function Navbar() {
               </Link>
             </li>
             <li class="nav-item px-2">
-              <Link to={isLoggedIn ? "" : "/login"}>
+              <Link to={isLoggedIn ? "" : "/need"}>
                 <a class="nav-link fw-medium" href="#Opportuanities">
                   Seeds
                 </a>
               </Link>
             </li>
             <li class="nav-item px-2">
-              <Link to={isLoggedIn ? "" : "/login"}>
+              <Link to={isLoggedIn ? "" : "/transport"}>
                 <a class="nav-link fw-medium" href="#testimonial">
                   Transport
                 </a>

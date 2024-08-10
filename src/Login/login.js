@@ -33,7 +33,7 @@ function Login() {
         // Navigate to dashboard on successful login
         navigate("/dashboard");
       } else {
-        alert(data.message); // Display error message from backend
+        alert("Incorrect username and password"); // Display error message from backend
       }
     } catch (error) {
       console.error("Error during login:", error);
@@ -64,6 +64,7 @@ function Login() {
         console.log("xyz")
         navigate("/dashboard");
       } else {
+
         alert(data.message); // Display error message from backend
       }
     } catch (error) {

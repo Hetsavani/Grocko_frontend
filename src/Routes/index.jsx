@@ -6,28 +6,28 @@ import SeedList from "../Seeds/seeds";
 import TransportRequest from "../Transport/TransportRequest";
 
 const router = createBrowserRouter([
-    {
+  {
+    path: "",
+    element: <Login />,
+  },
+  {
+    path: "dashboard",
+    element: <Dashboard />,
+    children: [
+      {
         path: "",
-        element: <Login />
-    },
-    {
-        path: "dashboard",
-        element: <Dashboard />,
-        children: [{
-            path: "",
-            element: <MainContent />
-        },
-    {
-        path:"seeds",
-        element:<SeedList/>
-    },
-    {
-        path:"transport",
-        element:<TransportRequest/>
-    }
-    ]
-    },
-
-])
+        element: <MainContent />,
+      },
+      {
+        path: "seeds",
+        element: <SeedList />,
+      },
+      {
+        path: "transport",
+        element: <TransportRequest />,
+      },
+    ],
+  },
+]);
 
 export default router;

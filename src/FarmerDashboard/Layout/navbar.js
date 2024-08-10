@@ -85,27 +85,27 @@ function Navbar() {
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item px-2">
               <Link to="">
-              <a
-                class="nav-link fw-medium active"
-                aria-current="page"
-                href="#header"
-              >
-                Home
-              </a>
+                <a
+                  class="nav-link fw-medium active"
+                  aria-current="page"
+                  href="#header"
+                >
+                  Home
+                </a>
               </Link>
             </li>
             <li class="nav-item px-2">
               <Link to="seeds">
-              <a class="nav-link fw-medium" href="#Opportuanities">
-                Seeds
-              </a>
+                <a class="nav-link fw-medium" href="#Opportuanities">
+                  Seeds
+                </a>
               </Link>
             </li>
             <li class="nav-item px-2">
               <Link to="transport">
-              <a class="nav-link fw-medium" href="#testimonial">
-                Transport
-              </a>
+                <a class="nav-link fw-medium" href="#testimonial">
+                  Transport
+                </a>
               </Link>
             </li>
             <li class="nav-item px-2">

@@ -54,7 +54,7 @@ function Navbar() {
               </Link>
             </li>
             <li class="nav-item px-2">
-              <Link to={isLoggedIn ? "" : "/need"}>
+              <Link to={isLoggedIn ? "" : "/seeds"}>
                 <a class="nav-link fw-medium" href="#Opportuanities">
                   Seeds
                 </a>

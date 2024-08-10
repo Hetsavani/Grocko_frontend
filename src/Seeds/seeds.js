@@ -1,3 +1,5 @@
+import { useEffect, useState } from "react";
+
 function SeedList(){
     const temp = [
         {
@@ -29,16 +31,26 @@ function SeedList(){
             price_per_unit : "1000"
         }
     ]
-    const formattedSeeds = temp.map((item)=>{
+    const [seeds,setSeeds] = useState([]);
+    useEffect(
+        ()=>{
+            fetch("http://localhost:3030/seedapi/seed").then(
+                (res)=>res.json().then((res)=>{
+                    setSeeds(res);
+                })
+            )
+        }
+    ,[])
+    const formattedSeeds = seeds.map((item)=>{
         return (
             <div class="row my-3 mx-auto" style={{borderRadius:"10px",backgroundColor:"#dddddd",width:"90vw",height:"10vh"}}>
                 <div className="col-10">
                     <div className="row">
-                        <div className="col" style={{fontSize:"30px"}}>{item.seed_name}</div>
+                        <div className="col" style={{fontSize:"30px"}}>{item.Seed_name}</div>
                     </div>
                     <div className="row">
-                        <div className="col" style={{fontSize:"15px"}}>Type : {item.seed_type}</div>
-                        <div className="col" style={{fontSize:"15px"}}>Price : {item.price_per_unit}</div>
+                        <div className="col" style={{fontSize:"15px"}}>Type : {item.Seed_type}</div>
+                        <div className="col" style={{fontSize:"15px"}}>Price : {item.Price_per_unit}</div>
                     </div>
                 </div>
                 <div className="col my-auto">

@@ -84,6 +84,7 @@ function Navbar() {
         >
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item px-2">
+              <Link to="">
               <a
                 class="nav-link fw-medium active"
                 aria-current="page"
@@ -91,6 +92,7 @@ function Navbar() {
               >
                 Home
               </a>
+              </Link>
             </li>
             <li class="nav-item px-2">
               <Link to="seeds">
@@ -115,14 +117,14 @@ function Navbar() {
               </a>
             </li>
           </ul>
-          <form class="d-flex">
+          {/* <form class="d-flex">
             <button
               class="btn btn-lg btn-dark bg-gradient order-0"
               type="submit"
             >
               Sign Up
             </button>
-          </form>
+          </form> */}
         </div>
       </div>
     </nav>

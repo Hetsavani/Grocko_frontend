@@ -53,7 +53,7 @@ function mainContent() {
                                 </div>
                                 <div className="col-md-4 mb-5">
                                     <div className="card h-100 shadow px-4 px-md-2 px-lg-3 card-span pt-6">
-                                        <div className="text-center text-md-start card-hover"><img className="ps-3 icons" src="assets/img/icons/growth.svg" height="60" alt="" />
+                                        <div className="text-center text-md-start card-hover"><img className="ps-3 icons" src="../assets/img/icons/growth.svg" height="60" alt="" />
                                             <div className="card-body">
                                                 <h6 className="fw-bold fs-1 heading-color">Expand Your Business</h6>
                                                 <p className="mt-3 mb-md-0 mb-lg-2">Harness the potential of agriculture by investing in innovative projects that promote growth and sustainability in the farming sector.</p>
@@ -63,7 +63,7 @@ function mainContent() {
                                 </div>
                                 <div className="col-md-4 mb-5">
                                     <div className="card h-100 shadow px-4 px-md-2 px-lg-3 card-span pt-6">
-                                        <div className="text-center text-md-start card-hover"><img className="ps-3 icons" src="assets/img/icons/planting.svg" height="60" alt="" />
+                                        <div className="text-center text-md-start card-hover"><img className="ps-3 icons" src="../assets/img/icons/planting.svg" height="60" alt="" />
                                             <div className="card-body">
                                                 <h6 className="fw-bold fs-1 heading-color">Impact Investment</h6>
                                                 <p className="mt-3 mb-md-0 mb-lg-2">Contribute to social impact by funding projects that not only yield financial returns but also benefit communities and the environment.</p>
@@ -89,7 +89,7 @@ function mainContent() {
                                 </div>
                                 <div className="col-md-6 mb-5">
                                     <div className="card text-white">
-                                        <img className="card-img" src="assets/img/gallery/short-terms.png" alt="..." />
+                                        <img className="card-img" src="../assets/img/gallery/short-terms.png" alt="..." />
                                         <div className="card-img-overlay d-flex flex-column justify-content-center px-5 px-md-3 px-lg-5 bg-dark-gradient">
                                             <h6 className="text-success pt-2">IMMEDIATE SUPPORT</h6>
                                             <hr className="text-white" style={{ height: "0.12rem", width: "2.813rem" }} />
@@ -103,7 +103,7 @@ function mainContent() {
                                 </div>
                                 <div className="col-md-6 mb-5">
                                     <div className="card text-white">
-                                        <img className="card-img" src="assets/img/gallery/fully-funded.png" alt="..." />
+                                        <img className="card-img" src="../assets/img/gallery/fully-funded.png" alt="..." />
                                         <div className="card-img-overlay d-flex flex-column justify-content-center px-5 px-md-3 px-lg-5 bg-light-gradient">
                                             <h6 className="text-success pt-2">LONG-TERM ASSISTANCE</h6>
                                             <hr className="text-white" style={{ height: "0.12rem", width: "2.813rem" }} />
@@ -127,7 +127,7 @@ function mainContent() {
                 <div
                     className="bg-holder"
                     style={{
-                        backgroundImage: "url(assets/img/illustrations/how-it-works.png)",
+                        backgroundImage: "url(../assets/img/illustrations/how-it-works.png)",
                         backgroundPosition: "center bottom",
                         backgroundSize: "cover",
                     }}
@@ -269,7 +269,7 @@ function mainContent() {
                                             <div class="card h-100 shadow">
                                                 <div class="card-body my-3">
                                                     <div class="align-items-xl-center d-block d-xl-flex px-3">
-                                                        <img class="img-fluid me-3 me-md-2 me-lg-3" src="assets/img/gallery/user-1.png" width="50" alt="" />
+                                                        <img class="img-fluid me-3 me-md-2 me-lg-3" src="../assets/img/gallery/user-1.png" width="50" alt="" />
                                                         <div class="flex-1 align-items-center pt-2">
                                                             <h5 class="mb-0 fw-bold text-success">Rajesh Patel</h5>
                                                             <p class="fw-normal text-black">Farmer</p>
@@ -283,7 +283,7 @@ function mainContent() {
                                             <div class="card h-100 shadow">
                                                 <div class="card-body my-3">
                                                     <div class="align-items-xl-center d-block d-xl-flex px-3">
-                                                        <img class="img-fluid me-3 me-md-2 me-lg-3" src="assets/img/gallery/user-2.png" width="50" alt="" />
+                                                        <img class="img-fluid me-3 me-md-2 me-lg-3" src="../assets/img/gallery/user-2.png" width="50" alt="" />
                                                         <div class="flex-1 align-items-center pt-2">
                                                             <h5 class="mb-0 fw-bold text-success">Sita Desai</h5>
                                                             <p class="fw-normal text-black">Agriculture Enthusiast</p>
@@ -297,7 +297,7 @@ function mainContent() {
                                             <div class="card h-100 shadow">
                                                 <div class="card-body my-3">
                                                     <div class="align-items-xl-center d-block d-xl-flex px-3">
-                                                        <img class="img-fluid me-3 me-md-2 me-lg-3" src="assets/img/gallery/user-3.png" width="50" alt="" />
+                                                        <img class="img-fluid me-3 me-md-2 me-lg-3" src="../assets/img/gallery/user-3.png" width="50" alt="" />
                                                         <div class="flex-1 align-items-center pt-2">
                                                             <h5 class="mb-0 fw-bold text-success">Vikram Chauhan</h5>
                                                             <p class="fw-normal text-black">Sustainable Farming Advocate</p>
@@ -315,7 +315,7 @@ function mainContent() {
                                             <div class="card h-100 shadow">
                                                 <div class="card-body my-3">
                                                     <div class="align-items-xl-center d-block d-xl-flex px-3">
-                                                        <img class="img-fluid me-3 me-md-2 me-lg-3" src="assets/img/gallery/user-1.png" width="50" alt="" />
+                                                        <img class="img-fluid me-3 me-md-2 me-lg-3" src="../assets/img/gallery/user-1.png" width="50" alt="" />
                                                         <div class="flex-1 align-items-center pt-2">
                                                             <h5 class="mb-0 fw-bold text-success">Rajesh Patel</h5>
                                                             <p class="fw-normal text-black">Farmer</p>
@@ -329,7 +329,7 @@ function mainContent() {
                                             <div class="card h-100 shadow">
                                                 <div class="card-body my-3">
                                                     <div class="align-items-xl-center d-block d-xl-flex px-3">
-                                                        <img class="img-fluid me-3 me-md-2 me-lg-3" src="assets/img/gallery/user-2.png" width="50" alt="" />
+                                                        <img class="img-fluid me-3 me-md-2 me-lg-3" src="../assets/img/gallery/user-2.png" width="50" alt="" />
                                                         <div class="flex-1 align-items-center pt-2">
                                                             <h5 class="mb-0 fw-bold text-success">Sita Desai</h5>
                                                             <p class="fw-normal text-black">Agriculture Enthusiast</p>
@@ -343,7 +343,7 @@ function mainContent() {
                                             <div class="card h-100 shadow">
                                                 <div class="card-body my-3">
                                                     <div class="align-items-xl-center d-block d-xl-flex px-3">
-                                                        <img class="img-fluid me-3 me-md-2 me-lg-3" src="assets/img/gallery/user-3.png" width="50" alt="" />
+                                                        <img class="img-fluid me-3 me-md-2 me-lg-3" src="../assets/img/gallery/user-3.png" width="50" alt="" />
                                                         <div class="flex-1 align-items-center pt-2">
                                                             <h5 class="mb-0 fw-bold text-success">Vikram Chauhan</h5>
                                                             <p class="fw-normal text-black">Sustainable Farming Advocate</p>

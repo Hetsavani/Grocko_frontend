@@ -8,11 +8,9 @@ import Dashboard from "./FarmerDashboard/Layout/dashboard"; // Make sure you hav
 const App = () => {
   return (
     <Router>
-      <Routes>
-        <Route path="/transport-request" element={<TransportRequest />} />
-        <Route path="/dashboard" element={<Dashboard />} />
+      {/* <Routes> */}
         {/* Add other routes here */}
-      </Routes>
+      {/* </Routes> */}
     </Router>
   );
 };

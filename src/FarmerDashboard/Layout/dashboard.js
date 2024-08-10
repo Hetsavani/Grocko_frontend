@@ -10,7 +10,7 @@ function Dashboard() {
         <Navbar />
       </div>
       <div>
-        <SeedList />
+        <Outlet />
       </div>
       {/* <Outlet></Outlet> */}
       <div>

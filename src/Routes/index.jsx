@@ -9,41 +9,38 @@ import TransportRequest from "../Transport/TransportRequest";
 const router = createBrowserRouter([
     {
         path: "",
+        element: <Dashboard />,
+        children:[
+            {
+                path:"",
+            element:<MainContent />
+            }
+        ]
+    },
+    {
+        path: "/login",
         element: <Login />,
     },
     {
         path: "dashboard",
         element: <Dashboard />,
-        children: [
-            {
+        // children: [
+            children: [{
                 path: "",
-
-                element: <Dashboard />,
-                children: [{
-                    path: "",
-                    element: <MainContent />
-                }],
+                element: <MainContent />
             },
             {
-                path: "login",
-                element: <Login />,
+                path: "seeds",
+                element: <SeedList />
+            },
+            {
+                path: "transport",
+                element: <TransportRequest />
             },
             {
                 path: "dashboard",
-                element: <Dashboard />,
-                children: [{
-                    path: "",
-                    element: <MainContent />
-                },
-                {
-                    path: "seeds",
-                    element: <SeedList />
-                },
-                {
-                    path: "transport",
-                    element: <TransportRequest />
-                }
-                ]
+                element: <MainContent />,
+                
             }
         ]}
     ],

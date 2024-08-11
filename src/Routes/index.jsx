@@ -7,43 +7,43 @@ import TransportRequest from "../Transport/TransportRequest";
 // import Login from './login';
 
 const router = createBrowserRouter([
-  {
-    path: "",
-    element: <Login />,
-  },
-  {
-    path: "dashboard",
-    element: <Dashboard />,
-    children: [
-      {
+    {
         path: "",
-
         element: <Dashboard />,
-        children: [{
-            path: "",
-            element: <MainContent />
-        }],
+        children:[
+            {
+                path:"",
+            element:<MainContent />
+            }
+        ]
     },
     {
-        path: "login",
+        path: "/login",
         element: <Login />,
     },
     {
         path: "dashboard",
         element: <Dashboard />,
-        children: [{
-            path: "",
-            element: <MainContent />
-        },
-    {
-        path:"seeds",
-        element:<SeedList/>
-    },
-    {
-        path:"transport",
-        element:<TransportRequest/>
-    }
-    ]
-    },
+        // children: [
+            children: [{
+                path: "",
+                element: <MainContent />
+            },
+            {
+                path: "seeds",
+                element: <SeedList />
+            },
+            {
+                path: "transport",
+                element: <TransportRequest />
+            },
+            {
+                path: "dashboard",
+                element: <MainContent />,
+                
+            }
+        ]}
+    ],
+)
 
 export default router;

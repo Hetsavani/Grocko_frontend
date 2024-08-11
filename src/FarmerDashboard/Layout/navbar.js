@@ -43,7 +43,9 @@ function Navbar() {
         >
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item px-2">
+
               <Link to={""}>
+
                 <a
                   class="nav-link fw-medium active"
                   aria-current="page"
@@ -55,6 +57,7 @@ function Navbar() {
             </li>
             <li class="nav-item px-2">
               <Link to={isLoggedIn ? "seeds" : "/login"}>
+
                 <a class="nav-link fw-medium" href="#Opportuanities">
                   Seeds
                 </a>

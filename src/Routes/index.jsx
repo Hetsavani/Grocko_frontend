@@ -7,8 +7,17 @@ import TransportRequest from "../Transport/TransportRequest";
 // import Login from './login';
 
 const router = createBrowserRouter([
-    {
+  {
+    path: "",
+    element: <Login />,
+  },
+  {
+    path: "dashboard",
+    element: <Dashboard />,
+    children: [
+      {
         path: "",
+
         element: <Dashboard />,
         children: [{
             path: "",
@@ -36,7 +45,5 @@ const router = createBrowserRouter([
     }
     ]
     },
-
-])
 
 export default router;
